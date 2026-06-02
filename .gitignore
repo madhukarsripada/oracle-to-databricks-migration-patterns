@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Databricks
+.databricks/
+.databricks.cfg
+*.dbc
+
+# Local data / secrets
+*.csv
+*.parquet
+*.delta
+secrets/
+.env
+.env.local
+config.local.yml
+credentials.json
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
