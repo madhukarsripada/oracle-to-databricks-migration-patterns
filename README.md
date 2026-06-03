@@ -27,7 +27,7 @@ If you're a data engineer staring at a 500-table Oracle warehouse and wondering 
 
 | # | Pattern | Source | Target |
 |---|---------|--------|--------|
-| 01 | [MERGE Statement](01-merge.md) | Oracle MERGE | Delta MERGE INTO |
+| 01 | [MERGE Statement] | Oracle MERGE | Delta MERGE INTO |
 | 02 | [SCD Type 2 Dimension](02-scd-type-2.md) | PL/SQL package with MERGE | Delta MERGE with effective dates |
 | 03 | [Partition Exchange Loading](03-partition-exchange.md) | Oracle EXCHANGE PARTITION | Delta REPLACE WHERE |
 | 04 | [Materialized Views](04-materialized-views.md) | FAST refresh MV | Delta Live Tables (DLT) |
