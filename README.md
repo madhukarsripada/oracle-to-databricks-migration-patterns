@@ -27,18 +27,18 @@ If you're a data engineer staring at a 500-table Oracle warehouse and wondering 
 
 | # | Pattern | Source | Target |
 |---|---------|--------|--------|
-| 01 | [MERGE Statement](patterns/01-merge.md) | Oracle MERGE | Delta MERGE INTO |
-| 02 | [SCD Type 2 Dimension](patterns/02-scd-type-2.md) | PL/SQL package with MERGE | Delta MERGE with effective dates |
-| 03 | [Partition Exchange Loading](patterns/03-partition-exchange.md) | Oracle EXCHANGE PARTITION | Delta REPLACE WHERE |
-| 04 | [Materialized Views](patterns/04-materialized-views.md) | FAST refresh MV | Delta Live Tables (DLT) |
-| 05 | [BULK COLLECT / FORALL](patterns/05-bulk-collect.md) | PL/SQL bulk operations | Spark batch read/write |
-| 06 | [Cursor Loops](patterns/06-cursor-loops.md) | PL/SQL FOR cursor LOOP | DataFrame operations (anti-pattern) |
-| 07 | [Hierarchical Queries](patterns/07-connect-by.md) | CONNECT BY | Recursive CTE / iterative DataFrame |
-| 08 | [Analytic / Window Functions](patterns/08-window-functions.md) | Oracle analytic functions | Spark window functions |
-| 09 | [ODI Knowledge Modules](patterns/09-odi-to-workflows.md) | ODI LKM / IKM / CKM | Databricks Workflows + DLT EXPECT |
-| 10 | [Change Data Capture](patterns/10-cdc.md) | GoldenGate Extract/Replicat | Autoloader / DLT CDC |
-| 11 | [ROWNUM / ROW_NUMBER](patterns/11-rownum.md) | Oracle ROWNUM | Spark row_number() with caveats |
-| 12 | [DECODE and Conditional Logic](patterns/12-decode.md) | DECODE / NVL / NVL2 | CASE WHEN / when().otherwise() |
+| 01 | [MERGE Statement](01-merge.md) | Oracle MERGE | Delta MERGE INTO |
+| 02 | [SCD Type 2 Dimension](02-scd-type-2.md) | PL/SQL package with MERGE | Delta MERGE with effective dates |
+| 03 | [Partition Exchange Loading](03-partition-exchange.md) | Oracle EXCHANGE PARTITION | Delta REPLACE WHERE |
+| 04 | [Materialized Views](04-materialized-views.md) | FAST refresh MV | Delta Live Tables (DLT) |
+| 05 | [BULK COLLECT / FORALL](05-bulk-collect.md) | PL/SQL bulk operations | Spark batch read/write |
+| 06 | [Cursor Loops](06-cursor-loops.md) | PL/SQL FOR cursor LOOP | DataFrame operations (anti-pattern) |
+| 07 | [Hierarchical Queries](07-connect-by.md) | CONNECT BY | Recursive CTE / iterative DataFrame |
+| 08 | [Analytic / Window Functions](08-window-functions.md) | Oracle analytic functions | Spark window functions |
+| 09 | [ODI Knowledge Modules](09-odi-to-workflows.md) | ODI LKM / IKM / CKM | Databricks Workflows + DLT EXPECT |
+| 10 | [Change Data Capture](10-cdc.md) | GoldenGate Extract/Replicat | Autoloader / DLT CDC |
+| 11 | [ROWNUM / ROW_NUMBER](11-rownum.md) | Oracle ROWNUM | Spark row_number() with caveats |
+| 12 | [DECODE and Conditional Logic](12-decode.md) | DECODE / NVL / NVL2 | CASE WHEN / when().otherwise() |
 
 ---
 
